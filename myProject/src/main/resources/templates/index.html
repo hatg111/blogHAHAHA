@@ -1,0 +1,43 @@
+{% extends "layouts/default" %}
+{% block script %}
+
+{% endblock %}
+{% block content %}
+<h3>title</h3>
+<div class="wrap">
+    <div class="search">
+        <select>
+            <option value="1">전체</option>
+            <option value="2" selected>제목</option>
+            <option value="3">내용</option>
+        </select>
+        <input type="text" class="searchTerm" name="keyword" placeholder="검색할 키워드를 입력하세요. ">
+        <button class="searchButton" id="search">
+            <i class="fa fa-search"></i>
+        </button>
+    </div>
+</div>
+
+<table class="w-10">
+    <tr>
+        <th>번호</th><th>제목</th><th>게시일자</th>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+</table>
+
+<div>
+    <h2>게시글이 없습니다. </h2>
+</div>
+
+<div class="button writebtn">
+    <a href="/board/write"><button>글쓰기</button></a>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="kr">
+<head>
+	<meta charset="utf-8">
+	<title>하하하 블로그</title>
+{% include "layouts/inc/commonCss" %}
+{% block head %}{% endblock %}
+</head>
+
+<body>
+{% include "layouts/nav" %}
+<div class="container">
+{% block content %}
+{% endblock %}
+</div>
+{% include "layouts/inc/commonJs" %}
+{% block script %}{% endblock %}
+</body>
+</html>

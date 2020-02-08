@@ -1,0 +1,232 @@
+html, body {
+    margin: 0 auto;
+    padding: 10px 30px;
+    width: 2000px;
+    height: 100%;
+}
+
+a:hover, a:active, a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+.button {
+    width: 1260px;
+    position: relative;
+    top: 25px;
+    left: 400px;
+}
+
+button {
+    width: 100px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+table {
+    width: 1200px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+
+/*home*/
+h2 {
+    text-align: center;
+}
+
+.homeTable {
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+.homeTable tr td p{
+    max-width: 1000px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    padding: 0 10px;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+/*view, modify, write*/
+input, .view {
+    width: 1000px;
+    text-align: left;
+}
+
+.textarea {
+    text-align: left;
+    width: 1020px;
+    height: 500px;
+    margin: 0;
+    overflow: auto;
+    white-space: normal;
+}
+
+.textarea > pre {
+    padding: 5px;
+    margin: 0;
+}
+
+table > tr > td:first-child {
+    width: 200px;
+}
+
+table > tr > td:nth-child(2) {
+    width: 1000px;
+}
+
+.emptyFiles {
+    visibility: hidden;
+}
+
+
+/* pagination */
+.pagination {
+    position: relative;
+    top: 20px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.pagination li {
+    display: inline;
+    width: 50px;
+}
+
+.pagination li button {
+    width: 50px;
+}
+
+.active> a> button {
+    background-color: blue;
+    color: white;
+}
+
+
+
+/*searchbar*/
+
+.search {
+    position: relative;
+    display: flex;
+}
+
+.search select {
+    position: relative;
+    right: -3px;
+    width: 80px;
+    border: 3px solid grey;
+    color: grey;
+    background-color: white;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid grey;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    outline: none;
+    color: grey;
+}
+
+.searchTerm:focus {
+    color: grey;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid grey;
+    background: grey;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.searchButton:hover {
+    background: dimgrey;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+    width: 400px;
+    position: relative;
+    top: 5px;
+    left: 1200px;
+    alignment: right;
+}
+
+
+/*comments*/
+.comments td label {
+    margin: 5px;
+
+}
+.comments td label:first-child input {
+    width: 200px;
+}
+
+.comments td label:nth-child(2) input {
+    width: 500px;
+}
+
+.comments td button {
+    float: right;
+}
+
+.commentsList {
+    padding: 5px;
+    margin: 0 auto;
+    width: 1190px;
+}
+
+.commentsList bold, pre {
+    margin-left: 63px;
+}
+
+.commentsList div {
+    position: relative;
+    top: -20px;
+    width: 300px;
+    margin-left: 950px;
+}
+
+.commentsList hr {
+    position: relative;
+    top: -20px;
+    width: 1130px;
+    margin-right: 0px;
+    color: #DEDEDE;
+}
+
+.modComments {
+    visibility: hidden;
+}
